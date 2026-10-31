@@ -1,0 +1,29 @@
+{
+  "status": "UP",
+  "components": {
+    "diskSpace": {
+      "status": "UP",
+      "details": {
+        "total": 999031828480,
+        "free": 429756747776,
+        "threshold": 10485760,
+        "path": "C:\\Users\\sabas\\Documentos\\observabilidad-microservicios-taller\\.",
+        "exists": true
+      }
+    },
+    "ping": {
+      "status": "UP"
+    },
+    "ssl": {
+      "status": "UP",
+      "details": {
+        "validChains": [
+          
+        ],
+        "invalidChains": [
+          
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+===== Arranque 1 de microservicio-pedidos =====
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.10)
+
+2026-10-31T14:27:56.093-05:00  INFO 37080 --- [microservicio-pedidos] [           main] c.e.p.MicroservicioPedidosApplication    : Starting MicroservicioPedidosApplication v0.0.1-SNAPSHOT using Java 21.0.12.1 with PID 37080 (C:\Users\sabas\Documentos\observabilidad-microservicios-taller\microservicio-pedidos\target\microservicio-pedidos-0.0.1-SNAPSHOT.jar started by sabas in C:\Users\sabas\Documentos\observabilidad-microservicios-taller)
+2026-10-31T14:27:56.098-05:00  INFO 37080 --- [microservicio-pedidos] [           main] c.e.p.MicroservicioPedidosApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T14:27:56.819-05:00  INFO 37080 --- [microservicio-pedidos] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-10-31T14:27:56.829-05:00  INFO 37080 --- [microservicio-pedidos] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-31T14:27:56.831-05:00  INFO 37080 --- [microservicio-pedidos] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-10-31T14:27:56.847-05:00  INFO 37080 --- [microservicio-pedidos] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-31T14:27:56.848-05:00  INFO 37080 --- [microservicio-pedidos] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 720 ms
+2026-10-31T14:27:57.257-05:00  INFO 37080 --- [microservicio-pedidos] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-10-31T14:27:57.290-05:00  INFO 37080 --- [microservicio-pedidos] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-10-31T14:27:57.298-05:00  INFO 37080 --- [microservicio-pedidos] [           main] c.e.p.MicroservicioPedidosApplication    : Started MicroservicioPedidosApplication in 1.492 seconds (process running for 1.764)
+2026-10-31T14:27:57.580-05:00  INFO 37080 --- [microservicio-pedidos] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-31T14:27:57.584-05:00  INFO 37080 --- [microservicio-pedidos] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-31T14:27:57.585-05:00  INFO 37080 --- [microservicio-pedidos] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-31T14:27:57.730-05:00  INFO 37080 --- [microservicio-pedidos] [nio-8082-exec-3] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:27:57.794-05:00  INFO 37080 --- [microservicio-pedidos] [nio-8082-exec-3] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+
+===== Arranque 2 de microservicio-pedidos =====
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.10)
+
+2026-10-31T14:28:04.644-05:00  INFO 33444 --- [microservicio-pedidos] [           main] c.e.p.MicroservicioPedidosApplication    : Starting MicroservicioPedidosApplication v0.0.1-SNAPSHOT using Java 21.0.12.1 with PID 33444 (C:\Users\sabas\Documentos\observabilidad-microservicios-taller\microservicio-pedidos\target\microservicio-pedidos-0.0.1-SNAPSHOT.jar started by sabas in C:\Users\sabas\Documentos\observabilidad-microservicios-taller)
+2026-10-31T14:28:04.647-05:00  INFO 33444 --- [microservicio-pedidos] [           main] c.e.p.MicroservicioPedidosApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T14:28:05.347-05:00  INFO 33444 --- [microservicio-pedidos] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-10-31T14:28:05.355-05:00  INFO 33444 --- [microservicio-pedidos] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-31T14:28:05.356-05:00  INFO 33444 --- [microservicio-pedidos] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-10-31T14:28:05.375-05:00  INFO 33444 --- [microservicio-pedidos] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-31T14:28:05.375-05:00  INFO 33444 --- [microservicio-pedidos] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 698 ms
+2026-10-31T14:28:05.793-05:00  INFO 33444 --- [microservicio-pedidos] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-10-31T14:28:05.825-05:00  INFO 33444 --- [microservicio-pedidos] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-10-31T14:28:05.834-05:00  INFO 33444 --- [microservicio-pedidos] [           main] c.e.p.MicroservicioPedidosApplication    : Started MicroservicioPedidosApplication in 1.497 seconds (process running for 1.764)
+2026-10-31T14:28:06.090-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-31T14:28:06.094-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-31T14:28:06.095-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-31T14:28:06.160-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-2] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:06.232-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-2] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+2026-10-31T14:28:06.358-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-5] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:06.364-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-5] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+2026-10-31T14:28:06.379-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-6] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:06.383-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-6] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+2026-10-31T14:28:06.396-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-7] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:06.400-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-7] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+2026-10-31T14:28:06.412-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-8] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:06.415-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-8] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+2026-10-31T14:28:06.427-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-9] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:06.430-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-9] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+2026-10-31T14:28:06.442-05:00  INFO 33444 --- [microservicio-pedidos] [io-8082-exec-10] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:06.446-05:00  INFO 33444 --- [microservicio-pedidos] [io-8082-exec-10] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+2026-10-31T14:28:06.458-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-1] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:06.461-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-1] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+2026-10-31T14:28:06.474-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-2] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:06.476-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-2] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+2026-10-31T14:28:06.489-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-3] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:06.492-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-3] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+2026-10-31T14:28:06.503-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-4] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:06.508-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-4] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+2026-10-31T14:28:08.594-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-7] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:08.606-05:00 ERROR 33444 --- [microservicio-pedidos] [nio-8082-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8081/productos/1": null] with root cause
+
+java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:202) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:786) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:874) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238) ~[java.net.http:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-10-31T14:28:11.792-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-9] c.e.pedidos.controller.PedidoController  : Iniciando consulta del pedido 1
+2026-10-31T14:28:11.802-05:00  INFO 33444 --- [microservicio-pedidos] [nio-8082-exec-9] c.e.pedidos.controller.PedidoController  : Consulta del producto finalizada para pedido 1
+

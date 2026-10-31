@@ -1,0 +1,9 @@
+{
+  "estado": "PROCESADO",
+  "producto": {
+    "precio": 2500000,
+    "id": 1,
+    "nombre": "Computador portatil"
+  },
+  "pedidoId": 1
+}

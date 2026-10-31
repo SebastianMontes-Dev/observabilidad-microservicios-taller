@@ -1,0 +1,58 @@
+{
+  "name": "http.server.requests",
+  "baseUnit": "seconds",
+  "measurements": [
+    {
+      "statistic": "COUNT",
+      "value": 14.0
+    },
+    {
+      "statistic": "TOTAL_TIME",
+      "value": 0.1135523
+    },
+    {
+      "statistic": "MAX",
+      "value": 0.0696043
+    }
+  ],
+  "availableTags": [
+    {
+      "tag": "exception",
+      "values": [
+        "none"
+      ]
+    },
+    {
+      "tag": "method",
+      "values": [
+        "GET"
+      ]
+    },
+    {
+      "tag": "error",
+      "values": [
+        "none"
+      ]
+    },
+    {
+      "tag": "uri",
+      "values": [
+        "/actuator/metrics/{requiredMetricName}",
+        "/productos/{id}",
+        "/actuator/health"
+      ]
+    },
+    {
+      "tag": "outcome",
+      "values": [
+        "SUCCESS"
+      ]
+    },
+    {
+      "tag": "status",
+      "values": [
+        "200"
+      ]
+    }
+  ]
+}

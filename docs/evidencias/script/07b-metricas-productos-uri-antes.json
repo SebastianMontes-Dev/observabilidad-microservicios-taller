@@ -1,0 +1,50 @@
+{
+  "name": "http.server.requests",
+  "baseUnit": "seconds",
+  "measurements": [
+    {
+      "statistic": "COUNT",
+      "value": 1.0
+    },
+    {
+      "statistic": "TOTAL_TIME",
+      "value": 0.0082629
+    },
+    {
+      "statistic": "MAX",
+      "value": 0.0082629
+    }
+  ],
+  "availableTags": [
+    {
+      "tag": "exception",
+      "values": [
+        "none"
+      ]
+    },
+    {
+      "tag": "method",
+      "values": [
+        "GET"
+      ]
+    },
+    {
+      "tag": "error",
+      "values": [
+        "none"
+      ]
+    },
+    {
+      "tag": "outcome",
+      "values": [
+        "SUCCESS"
+      ]
+    },
+    {
+      "tag": "status",
+      "values": [
+        "200"
+      ]
+    }
+  ]
+}
