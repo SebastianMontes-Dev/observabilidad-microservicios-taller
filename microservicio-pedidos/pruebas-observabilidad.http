@@ -1,0 +1,20 @@
+### Producto
+GET http://localhost:8081/productos/1
+
+### Pedido
+GET http://localhost:8082/pedidos/1
+
+### Salud productos
+GET http://localhost:8081/actuator/health
+
+### Salud pedidos
+GET http://localhost:8082/actuator/health
+
+### Lista de métricas
+GET http://localhost:8082/actuator/metrics
+
+### Métricas HTTP pedidos
+GET http://localhost:8082/actuator/metrics/http.server.requests
+
+### Métricas HTTP productos
+GET http://localhost:8081/actuator/metrics/http.server.requests
