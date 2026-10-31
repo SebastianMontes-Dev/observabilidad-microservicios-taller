@@ -1,0 +1,7 @@
+{
+  "name": "generador-informe-observabilidad",
+  "private": true,
+  "description": "Genera docs/Informe-Taller-Observabilidad.docx a partir de las evidencias del repo",
+  "scripts": { "generar": "node generar-informe.js" },
+  "dependencies": { "docx": "^9.0.0" }
+}
