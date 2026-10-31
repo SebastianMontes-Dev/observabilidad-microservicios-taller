@@ -1,0 +1,11 @@
+target/
+.env
+.idea/
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+*.iml
+node_modules/
+~$*
